@@ -5,7 +5,6 @@ import 'package:google_gemini_ai/models/message_model.dart';
 import 'package:google_gemini_ai/models/message_type.dart';
 import 'package:google_gemini_ai/ui/loading_view.dart';
 import 'package:google_gemini_ai/ui/message_view.dart';
-import 'package:google_generative_ai/google_generative_ai.dart';
 
 class ChatPage extends StatefulWidget {
   const ChatPage({super.key});

@@ -4,7 +4,7 @@
 
 # 專案介紹
 
-此專案將搭配文章[使用 Google Gemini API 快速建置自己的 Flutter App]()，
+此專案將搭配文章[使用 Google Gemini API 快速建置自己的 Flutter App](https://www.mosil.space/2024/03/google-gemini-api-flutter-app.html)，
 使用由 Flutter Team 釋出的 Gemini API SDK，
 來快速完一個屬於我們自己可以跟 Gemini Model 對話的聊天室。
 

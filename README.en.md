@@ -7,7 +7,7 @@
 This project will use the Gemini API SDK released by the Flutter Team to quickly complete a chat room that we can use to
 talk to the Gemini Model.
 This project will be accompanied by the
-article [Build With Google Gemini: The Easy Way to Start Developing Flutter App]().
+article [Build With Google Gemini: The Easy Way to Start Developing Flutter App](https://medium.com/@mosil-dev/build-with-google-gemini-the-easy-way-to-start-developing-flutter-apps-c6e4f308bc54).
 
 ## How to start
 
