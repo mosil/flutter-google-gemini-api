@@ -98,7 +98,24 @@ class _ChatPageState extends State<ChatPage> {
       _scrollDown();
     });
 
-    // TODO: Add Gemini API Code
+    final GenerativeModel model = GenerativeModel(
+      apiKey: apiKey,
+      model: aiModel,
+    );
+    final List<Content> contents = [Content.text(text)];
+    final GenerateContentResponse response = await model.generateContent(contents);
+    // show correct text on chat list, when success.
+    setState(() {
+      MessageModel feedback = MessageModel(
+        type: MessageType.feedback,
+        text: response.text ?? "",
+      );
+      messages.add(feedback);
+      _scrollDown();
+
+      _inputController.text = "";
+      isLoading = false;
+    });
   }
 
   void _scrollDown() {
