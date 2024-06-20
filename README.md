@@ -33,7 +33,7 @@
 
 1. `main`，初始狀態，還沒有串接 Gemini API。
 2. `1-gemini-api`，加入 Gemini API 的呼叫，請記得更換從 Google AI Studio 中取得的 API KEY。
-3. `2-geimin-api-completed`，完成此專案的目標。
+3. `2-gemini-api-text-completed`，完成aed.此專案的目標。
 
 ## Credits
 
